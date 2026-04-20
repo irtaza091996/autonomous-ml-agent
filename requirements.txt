@@ -1,0 +1,35 @@
+# Core
+fastapi>=0.110.0
+uvicorn>=0.27.0
+python-multipart>=0.0.9
+python-dotenv>=1.0.0
+pydantic>=2.0.0
+
+# LangChain + Anthropic
+langchain>=0.2.0
+langchain-anthropic>=0.1.15
+langchain-core>=0.2.0
+langgraph>=0.1.0
+anthropic>=0.25.0
+
+# Celery + Redis
+celery>=5.3.0
+redis>=5.0.0
+
+# ML
+pandas>=2.0.0
+numpy>=1.26.0
+scikit-learn>=1.4.0
+xgboost>=2.0.0
+imbalanced-learn>=0.12.0
+
+# Plotting
+matplotlib>=3.8.0
+seaborn>=0.13.0
+
+# MLflow
+mlflow>=2.13.0
+
+# Frontend
+streamlit>=1.32.0
+requests>=2.31.0

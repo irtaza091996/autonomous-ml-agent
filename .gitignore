@@ -1,0 +1,36 @@
+# Environment
+.env
+*.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+
+# Uploaded datasets (user data)
+uploads/
+
+# Job outputs (regenerated on each run)
+jobs/
+
+# MLflow runs (large)
+mlruns/
+
+# Keep screenshots
+!screenshots/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
