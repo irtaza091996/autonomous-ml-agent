@@ -16,13 +16,13 @@
 
 Upload a CSV. The agent handles the rest:
 
-1. **Loads and understands** the dataset — shape, types, missing values, problem type detection
-2. **Runs EDA** — statistics, correlation heatmap, class distribution, feature distributions
-3. **Selects models** — decides which algorithms to try based on what it finds
-4. **Trains multiple models** — Logistic Regression, Random Forest, XGBoost (with SMOTE if imbalanced)
-5. **Evaluates and compares** — accuracy, F1, ROC-AUC, confusion matrices, feature importance
-6. **Logs to MLflow** — every run tracked with parameters, metrics, and plots
-7. **Writes a report** — Claude Sonnet generates a professional narrative analysis
+1. **Loads and understands** the dataset: Shape, types, missing values, problem type detection.
+2. **Runs EDA**: Statistics, correlation heatmap, class distribution, feature distributions.
+3. **Selects models**: Decides which algorithms to try based on what it finds.
+4. **Trains multiple models**: Logistic Regression, Random Forest, XGBoost (with SMOTE if imbalanced).
+5. **Evaluates and compares**: Accuracy, F1, ROC-AUC, confusion matrices, feature importance.
+6. **Logs to MLflow**: Every run tracked with parameters, metrics, and plots.
+7. **Writes a report**: Claude Sonnet generates a professional narrative analysis.
 
 ![Dashboard Screenshot](screenshots/dashboard.png)
 
